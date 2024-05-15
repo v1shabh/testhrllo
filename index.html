@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        height: 400px;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border-radius: 50px 0px 50px 0px;
+        border: 6px solid red;
+        
+      }
+
+      .grid-container > div:hover{
+
+
+        background-color: blue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>The align-content Property</h1>
+
+    <p>
+      Use the <em>align-content</em> property to vertically align the grid
+      inside the container.
+    </p>
+
+    <p>
+      The value "center" will align the rows in the middle of the container:
+    </p>
+
+    <div class="grid-container">
+      <div>vvbdvdbzkvbjbjzdfb;
+        zdfjgdzf;jg
+        bzdf;jgbzdfg;jzdfbg;zdfjg</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+  </body>
+</html>
